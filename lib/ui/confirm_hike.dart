@@ -62,7 +62,7 @@ class ConfirmHikeScreen extends StatelessWidget {
                     );
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-                  child: const Text('SAVE HIKE'),
+                  child: const Text('Save Hike'),
                 ),
               ],
             ),

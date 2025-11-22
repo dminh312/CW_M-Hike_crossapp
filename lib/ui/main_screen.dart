@@ -92,7 +92,7 @@ class _MainScreenState extends State<MainScreen> {
                 backgroundColor: Colors.green,
                 padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
               ),
-              child: const Text('ADD NEW HIKE'),
+              child: const Text('Add New Hike'),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
@@ -106,7 +106,7 @@ class _MainScreenState extends State<MainScreen> {
                 backgroundColor: Colors.green,
                 padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
               ),
-              child: const Text('VIEW ALL HIKES'),
+              child: const Text('View All Hikes'),
             ),
           ],
         ),

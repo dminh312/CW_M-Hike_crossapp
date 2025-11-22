@@ -100,7 +100,7 @@ class _ObservationScreenState extends State<ObservationScreen> {
             ElevatedButton(
               onPressed: _addObservation,
               style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-              child: const Text('ADD OBSERVATION'),
+              child: const Text('Add Observation'),
             ),
             const SizedBox(height: 20),
             _observations.isEmpty
@@ -142,7 +142,7 @@ class _ObservationScreenState extends State<ObservationScreen> {
                                       ),
                                     );
                                   },
-                                  child: const Text('EDIT', style: TextStyle(color: Colors.green)),
+                                  child: const Text('Edit', style: TextStyle(color: Colors.green)),
                                 ),
                                 TextButton(
                                   onPressed: () {
@@ -150,7 +150,7 @@ class _ObservationScreenState extends State<ObservationScreen> {
                                       _observations.removeAt(index);
                                     });
                                   },
-                                  child: const Text('DELETE', style: TextStyle(color: Colors.red)),
+                                  child: const Text('Delete', style: TextStyle(color: Colors.red)),
                                 ),
                               ],
                             ),

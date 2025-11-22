@@ -136,7 +136,7 @@ class _EditObservationScreenState extends State<EditObservationScreen> {
               ElevatedButton(
                 onPressed: _saveObservation,
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-                child: const Text('SAVE'),
+                child: const Text('Save'),
               ),
             ],
           ),

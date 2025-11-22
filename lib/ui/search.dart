@@ -44,7 +44,7 @@ class _SearchScreenState extends State<SearchScreen> {
             ElevatedButton(
               onPressed: () { /* Search logic is already triggered by onChanged */ },
               style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-              child: const Text('SEARCH'),
+              child: const Text('Search'),
             ),
             const Divider(height: 40),
             const Text('Advanced Search', style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
@@ -81,7 +81,7 @@ class _SearchScreenState extends State<SearchScreen> {
                       trailing: ElevatedButton(
                         onPressed: () { /* TODO: Implement delete */ },
                         style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-                        child: const Text('DELETE HIKE'),
+                        child: const Text('Delete Hike'),
                       ),
                     ),
                   );

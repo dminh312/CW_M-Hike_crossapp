@@ -146,7 +146,7 @@ class _AddHikeScreenState extends State<AddHikeScreen> {
                   }
                 },
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-                child: const Text('CONFIRM'),
+                child: const Text('Confirm'),
               ),
             ],
           ),

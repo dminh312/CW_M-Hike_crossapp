@@ -41,7 +41,7 @@ class HikeDetailsScreen extends StatelessWidget {
                       MaterialPageRoute(builder: (context) => EditHikeScreen(hike: hike)),
                     );
                   },
-                  child: const Text('EDIT HIKE', style: TextStyle(color: Colors.green)),
+                  child: const Text('Edit Hike', style: TextStyle(color: Colors.green)),
                 ),
                 TextButton(
                   onPressed: () {
@@ -71,7 +71,7 @@ class HikeDetailsScreen extends StatelessWidget {
                       },
                     );
                   },
-                  child: const Text('DELETE HIKE', style: TextStyle(color: Colors.green)),
+                  child: const Text('Delete Hike', style: TextStyle(color: Colors.green)),
                 ),
               ],
             ),
@@ -85,7 +85,7 @@ class HikeDetailsScreen extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
-                child: const Text('MANAGE OBSERVATIONS'),
+                child: const Text('Manage Observations'),
               ),
             ),
           ],

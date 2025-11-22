@@ -136,7 +136,7 @@ class _ShowAllHikeScreenState extends State<ShowAllHikeScreen> {
                         _refreshHikes();
                       },
                       style: ElevatedButton.styleFrom(backgroundColor: Colors.green, padding: const EdgeInsets.all(10.0)),
-                      child: const Text('DELETE HIKE'),
+                      child: const Text('Delete Hike'),
                     ),
                     onTap: () {
                       Navigator.push(
